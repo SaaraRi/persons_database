@@ -80,7 +80,7 @@ footer {
 @media (max-width: 768px) {
 
     header h1 {
-        max-width: 100%;
+        width: 100%;
         font-size: 3rem;
         text-align: center;
         line-height: 2.5rem;
@@ -100,6 +100,8 @@ footer {
     }
 
     footer {
+        width: 100%;
+        text-align: center;
         margin-top: 50px;
     }
 }
