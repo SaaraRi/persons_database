@@ -13,21 +13,15 @@ body {
     overflow-x: hidden;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 header h1 {
     font-family: "Righteous", sans-serif;
-    font-size: 4.5rem;
+    font-size: 4rem;
     text-transform: uppercase;
     color: #2c2b35;
     -webkit-text-stroke-color: rgb(248, 239, 145);
-    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-width: 0.01px;
     text-align: center;
-    margin: 100px;
+    margin: 60px 0 80px 0;
 }
 
 #card-container {
@@ -87,7 +81,7 @@ footer {
     body {
         margin: 1rem;
     }
-    
+
     header {
         margin-top: 60px;
         margin-bottom: 40px;
