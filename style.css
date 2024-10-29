@@ -12,6 +12,7 @@ body {
     line-height: 1.5rem;
     background: #BFF4FF;
     background-image: repeating-linear-gradient(to top right, #BFF4FF, #B1CEFF, #BFF4FF 35%);
+    overflow-x: hidden;
 }
 
 header {
@@ -93,6 +94,7 @@ footer {
         font-size: 3rem;
         text-align: center;
         max-width: 100vw;
+        line-height: 2rem;
     }
 
     #card-container {
